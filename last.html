@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lastPage</title>
+</head>
+<link rel="stylesheet" href="style3.css">
+<body>
+   <div class="wrapper">
+    <div class="container">
+        <h2>Attach Documents</h2><br><br>
+        <form action="register5.php" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <th>Documents</th>
+                    <th>Upload here</th>
+                </tr>
+                <tr>
+                    <td>AADHAR CARD</td>
+                    <TD><input type="file" name="file1" id="fileToUpload" ></TD>
+                </tr>
+                <tr>
+                    <td>CLASS 10 MARKSHEET</td>
+                    <TD><input type="file" name="file2" id="fileToUpload" ></TD>
+                </tr>
+                <tr>
+                    <td>CLASS 12 MARKSHEET</td>
+                    <TD><input type="file" name="file3" id="fileToUpload" ></TD>
+                </tr>
+                <tr>
+                    <td>GRADUATION REPORT</td>
+                    <TD><input type="file" name="file4" id="fileToUpload" ></TD>
+                </tr>
+                <tr>
+                    <td>POST GRADUATION REPORT</td>
+                    <TD><input type="file" name="file5" id="fileToUpload"></TD>
+                </tr>
+                <tr>
+                    <td>UAN</td>
+                    <TD><input type="file" name="file6" id="fileToUpload"></TD>
+                </tr>
+                <tr>
+                    <td>PAN CARD</td>
+                    <TD><input type="file" name="file7" id="fileToUpload"></TD>
+                </tr>
+            </table>
+
+            <button type="submit" class="btn1" onclick="window.location.href = './newpage.php'">NEXT</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
